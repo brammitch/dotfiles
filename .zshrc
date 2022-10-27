@@ -106,13 +106,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dotfiles='/usr/bin/git --git-dir=/home/brando/.dotfiles/ --work-tree=/home/brando'
-
-# nvs
-export NVS_HOME="$HOME/.nvs"
-[ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
-
-# exercism
-export PATH=~/bin:$PATH
-
-# golang
-export PATH=$PATH:/usr/local/go/bin:~/go/bin
