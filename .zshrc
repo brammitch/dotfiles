@@ -105,8 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# https://github.com/microsoft/WSL/issues/7896#issuecomment-1264252335
-alias chrome="google-chrome-stable --enable-features=UseOzonePlatform --ozone-platform=wayland"
+alias dotfiles='/usr/bin/git --git-dir=/home/brando/.dotfiles/ --work-tree=/home/brando'
 
 # nvs
 export NVS_HOME="$HOME/.nvs"
@@ -117,4 +116,3 @@ export PATH=~/bin:$PATH
 
 # golang
 export PATH=$PATH:/usr/local/go/bin:~/go/bin
-alias config='/usr/bin/git --git-dir=/home/brando/.cfg/ --work-tree=/home/brando'
