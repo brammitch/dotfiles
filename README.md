@@ -13,6 +13,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ## Clone dotfiles
 ```
 git clone --bare https://github.com/brammitch/dotfiles.git $HOME/.dotfiles
+rm ~/.zshrc
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dotfiles checkout
 dotfiles config --local status.showUntrackedFiles no
