@@ -73,6 +73,7 @@ ZSH_THEME="gnzh"
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
+  kube-aliases
 )
 
 fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
